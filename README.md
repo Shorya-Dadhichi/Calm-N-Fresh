@@ -1,6 +1,6 @@
-# Portfolio-2.0
+# Calm N Fresh
 
-Brand new portfolio built in React JS from scratch.
+Brand new ayurvedic website built in React JS from scratch.
 
 # Getting Started with Create React App
 
