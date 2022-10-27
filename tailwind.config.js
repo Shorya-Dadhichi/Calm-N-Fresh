@@ -15,7 +15,8 @@ module.exports = {
         'roboto': ['Roboto', 'sans-serif'],
       },
       backgroundImage: {
-        'hero-bg': "url('/src/imgs/hero_bg.png')",
+        'cta-bg': "url('/src/img/cta_bg.webp')",
+        'cta-bg2': "url('/src/img/cta_bg2.webp')",
       }
     },
   },
