@@ -11,8 +11,6 @@ import hero_img2 from "../img/hero_img2.webp"
 import store from "../img/storeVector.svg"
 import consultations from "../img/consultationsVector.svg"
 import treatments from "../img/treatmentsVector.svg"
-import brand from "../img/brand1.webp"
-
 
 const Home = () => {
   return (
@@ -67,16 +65,13 @@ const Home = () => {
           <h1 className="font-semibold text-4xl md:text-5xl text-center uppercase">Brands we are offering</h1>
 
           <article className="flex flex-col md:flex-row items-center gap-12">
-            <Brand
-              logo={brand}
-              name="Himalaya"
-            />
+            <Brand/>
           </article>
         </section>
       </article>
 
       <CTA
-        bg="bg-cta-bg3"
+        bg="bg-cta-bg"
         head="Extraordinary medicine for ordinary people."
         para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
       />
@@ -101,7 +96,7 @@ const Home = () => {
       {/* HOW WE WORK */}
       <article className="max-w-screen-xl mx-auto px-6 md:px-12 2xl:px-6 pb-24 flex flex-col md:flex-row gap-6">
         <section className="md:w-3/6 space-y-6">
-          <h3 className="font-medium text-primary text-md leading-loose">How we work</h3>
+          <h3 className="font-medium text-primary text-md leading-loose"><em>How we work</em></h3>
           <h2 className="font-light text-6xl">Easy steps to order the services.</h2>
           <p>
             Dapibus imperdiet hendrerit purus curae ornare consequat. Aliquet consectetuer ligula integer tempor taciti egestas cubilia nam gravida mattis. Mus sodales aliquet turpis natoque pede.r ligula integer tempor taciti egestas cubilia nam gravida mattis. Mus sodales aliquet turpis natoque pede.
@@ -109,10 +104,13 @@ const Home = () => {
             <br/>
             Dapibus imperdiet hendrerit purus curae ornare consequat. Aliquet consectetuer ligula integer tempor taciti egestas cubilia nam gravida mattis. Mus sodales aliquet turpis natoque pede.r ligula integer tempor taciti egestas cubilia nam gravida mattis. Mus sodales aliquet turpis natoque pede.
           </p>
+
+          <div>
+            
+          </div>
         </section>
 
         <section className="md:w-3/6 space-y-6">
-
           <div className="flex gap-6 border border-type/30 rounded-3xl p-6">
             <span className="bg-secondary p-4 rounded-xl text-white text-4xl">1</span>
             <div className="space-y-2">

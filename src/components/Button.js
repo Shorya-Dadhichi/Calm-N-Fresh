@@ -5,7 +5,7 @@ import React from "react";
 const Button = ({text}) => {
   return (
     <div className="">
-      <a href='/contact'><button className="font-semibold w-4/6 py-3 bg-primary hover:bg-secondary text-light text-white text-xs lg:text-sm rounded-full transition-all">{text}</button></a>
+      <a href='/contact'><button className="font-medium w-3/6 py-4 bg-gradient-to-tl from-primary to-secondary text-white text-xs lg:text-sm rounded-full transition-all hover:scale-105 hover:tracking-[2px]">{text}</button></a>
     </div>
   )
 };

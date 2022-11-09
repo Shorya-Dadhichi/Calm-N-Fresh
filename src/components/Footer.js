@@ -30,7 +30,7 @@ const Footer = () => {
         </div>
 
       </article>
-        <h2 className="text-center pb-8">Site by <a href="https://varunbhabhra.com/" className="font-semibold hover:text-type underline underline-offset-4">Varun Bhabhra <i className="fa-solid fa-link"></i></a></h2>
+        <h2 className="text-center pb-8">Site by <a href="https://varunbhabhra.com/" target="__blank" className="font-semibold hover:text-type underline underline-offset-4">Varun Bhabhra <i className="fa-solid fa-link"></i></a></h2>
     </section>
   )
 };

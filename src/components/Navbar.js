@@ -25,19 +25,19 @@ const Navbar = () => {
           <i id="myBtn" className="fa-solid fa-bars md:hidden text-dark text-lg text-neutral cursor-pointer" onClick={hamburgerClick}></i>
           
           <aside id="desktop_menu" className="hidden md:block text-dark">
-            <div className="font-medium list-none flex gap-4 xl:gap-10">
-              <a href='/' className="py-2 px-4 font-normal cursor-pointer text-neutral hover:text-secondary hover:underline underline-offset-4 transition-colors">Home
-              </a>
-              <a href='/products' className="py-2 px-4 font-normal cursor-pointer text-neutral hover:text-secondary hover:underline underline-offset-4 transition-colors">products</a>
-              <a href='/about' className="py-2 px-4 font-normal cursor-pointer text-neutral hover:text-secondary hover:underline underline-offset-4 transition-colors">About Us</a>
+            <div className="font-medium list-none flex items-center gap-4 xl:gap-">
+              <a href='/' className="py-2 px-4 font-normal cursor-pointer text-neutral hover:text-secondary hover:underline underline-offset-4 transition-colors">Home</a>
+
+              <a href='/about' className="py-2 px-4 font-normal cursor-pointer text-neutral hover:text-secondary hover:underline underline-offset-4 transition-colors">About</a>
+
+              <aside className='hidden md:block w-64'>
+                <Button
+                  text="Contact Us"
+                />
+              </aside>
             </div>
           </aside>
 
-          <aside className='hidden md:block w-64'>
-            <Button
-              text="Contact Us"
-            />
-          </aside>
         </div>
 
       </nav>
@@ -45,8 +45,7 @@ const Navbar = () => {
         <div className="space-y-8">
           <div className="px-6 font-normal text-neutral text-center text-lg list-none flex flex-col">
             <a href="/" className="py-4 cursor-pointer hover:text-secondary transition-colors">Home</a>
-            <a href="/about" className="py-4 cursor-pointer hover:text-secondary transition-colors">Products</a>
-            <a href="/product" className="py-4 cursor-pointer hover:text-secondary transition-colors">About us</a>
+            <a href="/product" className="py-4 cursor-pointer hover:text-secondary transition-colors">About</a>
             <Button
               text="Contact Us"
             />
