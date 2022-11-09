@@ -1,12 +1,14 @@
 import React from "react";
-import Home from "./Home";
 import Navbar from "./Navbar";
+import Home from "./Home";
+import Footer from "./Footer";
 
 const App = () => {
   return (
     <main className="">
-        <Navbar />
-        <Home />
+      <Navbar />
+      <Home />
+      <Footer/>
     </main>
   )
 };
