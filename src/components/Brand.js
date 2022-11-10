@@ -22,7 +22,7 @@ const Brand = ({ logo, name }) => {
 
   return (
     <div className="grid grid-cols-3 lg:grid-cols-3 gap-6 items-center">
-      {images.map(img => <img alt="img" src={img} className="w-5/6 md:w-3/6 mx-auto rounded-xl cursor-pointer scale-110 hover:scale-125 transition-all"/>)}
+      {images.map((img, key) => <img alt="img" src={img} key={key} className="w-5/6 md:w-3/6 mx-auto rounded-xl cursor-pointer scale-110 hover:scale-125 transition-all"/>)}
     </div>
   )
 };

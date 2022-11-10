@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Button from './Button';
-// import Link from './Link';
+import Link from './Link';
 
 // imgs
 import logo from '../img/PNMlogo.png';
@@ -13,7 +13,7 @@ const Navbar = () => {
   const [scroll, setScroll] = useState(false);
     useEffect(() => {
     window.addEventListener("scroll", () => {
-    setScroll(window.scrollY > 150);
+    setScroll(window.scrollY > 1);
     });
   }, []);
   
@@ -25,15 +25,15 @@ const Navbar = () => {
         <div className="max-w-screen-xl mx-auto flex justify-between items-center text-xs lg:text-sm uppercase">
           
           {/* <a href='/' className="text-2xl font-bold">Punjab Medicare</a> */}
-          <a href='/' className="text-2xl font-bold"><img src={ logo } alt="logo" className='w-12 h-12'/></a>
+          <Link href='/' className="text-2xl font-bold"><img src={ logo } alt="logo" className='w-12 h-12'/></Link>
           
           <i id="myBtn" className="fa-solid fa-bars md:hidden text-dark text-lg text-neutral cursor-pointer" onClick={hamburgerClick}></i>
           
           <aside id="desktop_menu" className="hidden md:block text-dark">
             <div className="font-medium list-none flex items-center gap-4 xl:gap-">
-              <a href='/' className="py-2 px-4 font-normal cursor-pointer text-neutral hover:text-secondary hover:underline underline-offset-4 transition-colors">Home</a>
+              <Link href='/' className="py-2 px-4 font-normal cursor-pointer text-neutral hover:text-secondary hover:underline underline-offset-4 transition-colors">Home</Link>
 
-              <a href='/about' className="py-2 px-4 font-normal cursor-pointer text-neutral hover:text-secondary hover:underline underline-offset-4 transition-colors">About</a>
+              <Link href='/contact' className="py-2 px-4 font-normal cursor-pointer text-neutral hover:text-secondary hover:underline underline-offset-4 transition-colors">About</Link>
 
               <aside className='hidden md:block w-64'>
                 <Button

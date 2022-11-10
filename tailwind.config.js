@@ -17,6 +17,7 @@ module.exports = {
       backgroundImage: {
         'cta-bg': "url('/src/img/cta_bg.webp')",
         'cta-bg2': "url('/src/img/cta_bg2.webp')",
+        'formcta-bg': "url('/src/img/formCTA_bg.png')",
       }
     },
   },

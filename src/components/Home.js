@@ -3,6 +3,7 @@ import Button from "./Button";
 import FeatureCard from "./FeatureCard";
 import Brand from "./Brand";
 import CTA from "./CTA";
+import FormCTA from "./FormCTA";
 
 // Imgs
 import hero_blob from "../img/hero_blob.webp"
@@ -32,7 +33,7 @@ const Home = () => {
             </div>
 
             <div className="pt-12 sm:w-3/6 relative">
-              <img src={hero_blob} alt="blob" className="absolute top-0 scale-105"/> 
+              <img src={hero_blob} alt="blob" className="absolute top-0 scale-110"/> 
               <img src={hero_img2} width="2880" height="2000" id="fade-in-image" alt="illustration" className="relative"/>
               
               <aside id="reveal_btn" className='md:hidden text-center pt-24 space-y-2'>
@@ -143,6 +144,8 @@ const Home = () => {
         head="Discount up to 50% for first purchase."
         para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
       />
+
+      <FormCTA/>
     </section>
   )
 };
