@@ -19,12 +19,12 @@ const Home = () => {
       {/* Hero Section */}
         <section>
           <div className="flex flex-col md:flex-row justify-center items-center gap-12">
-            <div className="md:w-3/6 space-y-2 md:space-y-4">
+            <div className="md:w-3/6 md:space-y-4">
               <p id="reveal_para" className="font-medium text-primary text-md pt-6 leading-loose"><em>Welcome to Punjab Medicare</em></p>
 
               <h2 id="reveal" className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-normal lg:leading-relaxed">Natural care for natural beauty.</h2>
 
-              <p id="reveal_para" className="font-light text-xl lg:text-2xl pt-6 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.</p>
+              <p id="reveal_para" className="font-light text-lg lg:text-2xl pt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.</p>
 
               <aside id="reveal_btn" className='hidden md:block pt-12 space-y-2'>
                 <Button href="/plan" text="Discover"/>
@@ -41,7 +41,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="mt-36 flex flex-col lg:flex-row gap-6">
+          <div className="mt-36 flex flex-col md:flex-row gap-6">
             <FeatureCard
               icon={store}
               head="Ayurvedic Store"
@@ -62,7 +62,7 @@ const Home = () => {
 
         {/* Products Section */}
         <section className="py-24 space-y-24">
-          <h1 className="font-semibold text-4xl md:text-5xl text-center uppercase">Brands we are offering</h1>
+          <h1 className="text-4xl md:text-5xl text-center uppercase">Brands we offer</h1>
 
           <article className="flex flex-col md:flex-row items-center gap-12">
             <Brand/>
@@ -71,7 +71,7 @@ const Home = () => {
       </article>
 
       <CTA
-        bg="bg-cta-bg"
+        bg="bg-cta-bg2"
         head="Extraordinary medicine for ordinary people."
         para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
       />
@@ -111,7 +111,7 @@ const Home = () => {
         </section>
 
         <section className="md:w-3/6 space-y-6">
-          <div className="flex gap-6 border border-type/30 rounded-3xl p-6">
+          <div className="flex gap-6 border border-type/30 rounded-xl p-6">
             <span className="bg-secondary p-4 rounded-xl text-white text-4xl">1</span>
             <div className="space-y-2">
               <h2 className="font-medium text-xl">Consultations with our expert</h2>
@@ -119,7 +119,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="flex gap-6 border border-type/30 rounded-3xl p-6">
+          <div className="flex gap-6 border border-type/30 rounded-xl p-6">
             <span className="bg-secondary p-4 rounded-xl text-white text-4xl">2</span>
             <div className="space-y-2">
               <h2 className="font-medium text-xl">Consultations with our expert</h2>
@@ -127,7 +127,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="flex gap-6 border border-type/30 rounded-3xl p-6">
+          <div className="flex gap-6 border border-type/30 rounded-xl p-6">
             <span className="bg-secondary p-4 rounded-xl text-white text-4xl">3</span>
             <div className="space-y-2">
               <h2 className="font-medium text-xl">Consultations with our expert</h2>
@@ -139,7 +139,7 @@ const Home = () => {
       </article>
 
       <CTA
-        bg="bg-cta-bg2"
+        bg="bg-cta-bg"
         head="Discount up to 50% for first purchase."
         para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
       />

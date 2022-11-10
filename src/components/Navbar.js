@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import Button from './Button';
 // import Link from './Link';
 
+// imgs
+import logo from '../img/PNMlogo.png';
+
+
 const Navbar = () => {
 
   const hamburgerClick = () => document.querySelector('#mobile_menu').classList.toggle('hidden');
@@ -16,11 +20,12 @@ const Navbar = () => {
   return (
     <section className="font-roboto text-type">
       <nav id='navbar'
-        className={scroll ? "bg-white textwhite fixed w-full left-0 px-8 md:px-10 lg:px-16 xl:px-24 py-4 z-40 shadow-lg duration-300 transition-all" : "fixed w-full left-0 px-8 md:px-10 lg:px-16 xl:px-24 py-4 md:py-6 z-40 transition-all"}>
+        className={scroll ? "bg-white textwhite fixed w-full left-0 px-8 md:px-10 lg:px-16 xl:px-24 py-4 z-40 shadow-md duration-300 transition-all" : "fixed w-full left-0 px-8 md:px-10 lg:px-16 xl:px-24 py-16 md:py-20 z-40 transition-all"}>
         
         <div className="max-w-screen-xl mx-auto flex justify-between items-center text-xs lg:text-sm uppercase">
           
-          <a href='/' className="text-2xl font-bold">Punjab Medicare</a>
+          {/* <a href='/' className="text-2xl font-bold">Punjab Medicare</a> */}
+          <a href='/' className="text-2xl font-bold"><img src={ logo } alt="logo" className='w-12 h-12'/></a>
           
           <i id="myBtn" className="fa-solid fa-bars md:hidden text-dark text-lg text-neutral cursor-pointer" onClick={hamburgerClick}></i>
           

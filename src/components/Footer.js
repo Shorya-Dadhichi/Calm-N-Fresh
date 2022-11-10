@@ -5,21 +5,21 @@ import React from "react";
 const Footer = () => {
   return (
     <section className="bg-secondary text-white">
-      <article className="max-w-screen-xl mx-auto py-12 md:flex justify-center gap-64 items-center">
-        <div>
-          <h2 className="font-semibold text-3xl uppercase">Punjab Medicare</h2>
+      <article className="max-w-screen-xl mx-auto py-12 px-6 md:flex justify-center gap-64 items-center">
+        <div className="py-6">
+          <h2 className="font-semibold text-3xl uppercase text-center">Punjab Medicare</h2>
         </div>
 
         <div>
           <article className="space-y-6">
-            <div className="font-medium list-none flex gap-4">
+            <div className="font-medium list-none text-center flex flex-col md:flex-row lg:gap-4">
               <a href='/' className="py-2 px-4 font-medium cursor-pointer text-neutral hover:text-type transition-colors">Home</a>
               <a href='/products' className="py-2 px-4 font-medium cursor-pointer text-neutral hover:text-type transition-colors">Products</a>
               <a href='/about' className="py-2 px-4 font-medium cursor-pointer text-neutral hover:text-type transition-colors">About</a>
               <a href='/contact' className="py-2 px-4 font-medium cursor-pointer text-neutral hover:text-type transition-colors">Contact</a>
             </div>
             <hr />
-            <div className="flex justify-between gap-24">
+            <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-24">
               <p>Copyright © 2022 Punjab Medicare, All rights reserved</p>
               <div className="text-2xl space-x-6">
                 <a href="/"><i className="fa-brands fa-instagram hover:text-type transition-colors"></i></a>
