@@ -9,7 +9,7 @@ const About = () => {
       <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
         <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
           <div>
-            <div class="h-64 md:h-auto overflow-hidden rounded-lg drop-shadow-xl">
+            <div class="h-auto overflow-hidden rounded-lg drop-shadow-xl">
               <img src={hero_img} loading="lazy" alt="Plant meds" class="w-full h-full object-cover object-center" />
             </div>
           </div>
