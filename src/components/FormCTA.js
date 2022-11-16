@@ -14,7 +14,7 @@ const FormCTA = () => {
 
       <form action="" className="mx-auto mt-8 mb-0 max-w-2xl space-y-4">
         <div>
-          <label for="email" className="font-bold">Name</label>
+          <label htmlFor="email" className="font-bold">Name</label>
 
           <div className="relative">
             <input
@@ -26,7 +26,7 @@ const FormCTA = () => {
         </div>
 
         <div>
-          <label for="password" className="font-bold">Product Name</label>
+          <label htmlFor="password" className="font-bold">Product Name</label>
           <div className="relative">
             <input
               type="text"
@@ -37,7 +37,7 @@ const FormCTA = () => {
         </div>
 
         <div>
-          <label for="password" className="font-bold">Brand</label>
+          <label htmlFor="password" className="font-bold">Brand</label>
           <div className="relative">
             <input
               type="text"
