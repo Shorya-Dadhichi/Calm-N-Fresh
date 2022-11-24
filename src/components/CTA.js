@@ -11,7 +11,7 @@ const CTA = ({ bg, head, para }) => {
         <h2 className="font-medium text-4xl md:text-5xl lg:text-7xl md:w-5/6">{head}</h2>
         <p className="text-lg md:text-2xl md:w-4/6">{para}</p>
         <aside id="reveal_btn" className='text-center w-5/6 md:w-3/6'>
-          <Button href="/plan" text="View Products"/>
+          <Button href="/contact" text="Contact Us"/>
         </aside>
       </div>
     </article>

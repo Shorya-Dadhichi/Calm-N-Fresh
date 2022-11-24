@@ -23,12 +23,12 @@ const Home = () => {
             <div className="md:w-3/6 md:space-y-4">
               <p id="reveal_para" className="font-medium text-primary text-md pt-6 leading-loose"><em>Welcome to Punjab Medicare</em></p>
 
-              <h2 id="reveal" className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-normal lg:leading-relaxed">Natural care for natural beauty.</h2>
+              <h2 id="reveal" className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-normal lg:leading-relaxed">Healing through Nature.</h2>
 
-              <p id="reveal_para" className="font-light text-lg lg:text-2xl pt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.</p>
+              <p id="reveal_para" className="font-light text-lg lg:text-2xl pt-6">For a healthy mind and body, you can't overlook Ayurvedic medicine.</p>
 
               <aside id="reveal_btn" className='hidden md:block pt-12 space-y-2'>
-                <Button href="/plan" text="Discover"/>
+                <Button href="/plan" text="Discover Us"/>
               </aside>
             </div>
 
@@ -71,16 +71,18 @@ const Home = () => {
         </section>
       </article>
 
+      <FormCTA/>
+
       <CTA
         bg="bg-cta-bg2"
-        head="Extraordinary medicine for ordinary people."
-        para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+        head="Extraordinary Ayurvedic medicine for ordinary people."
+        para="The brand you are looking for is not available? That's okay! contact us you can order them from our store."
       />
 
       {/* CTA CLIENT TRUST */}
       <article className="w-5/6 sm:max-w-screen-lg mx-auto bg-white shadow-2xl rounded-xl px-6 py-8 flex flex-col md:flex-row justify-center gap-6 items-center -translate-y-12 md:divide-x divide-type">
         <div className="">
-          <h2 className="font-light text-2xl md:text-3xl text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+          <h2 className="font-light text-2xl md:text-3xl">We offer Ayurvedic medicines from Haryana, India.</h2>
         </div>
         <div className="flex gap-4 items-center pl-4">
           <div className="text-3xl text-center">
@@ -97,13 +99,15 @@ const Home = () => {
       {/* HOW WE WORK */}
       <article className="max-w-screen-xl mx-auto px-6 md:px-12 2xl:px-6 pb-24 flex flex-col md:flex-row gap-6">
         <section className="md:w-3/6 space-y-6">
-          <h3 className="font-medium text-primary text-md leading-loose"><em>How we work</em></h3>
-          <h2 className="font-light text-6xl">Easy steps to order the services.</h2>
+          <h3 className="font-medium text-primary text-md leading-loose"><em>Why Ayurvedic</em></h3>
+          <h2 className="font-light text-6xl">Why should you choose Ayurvedic?</h2>
           <p>
-            Dapibus imperdiet hendrerit purus curae ornare consequat. Aliquet consectetuer ligula integer tempor taciti egestas cubilia nam gravida mattis. Mus sodales aliquet turpis natoque pede.r ligula integer tempor taciti egestas cubilia nam gravida mattis. Mus sodales aliquet turpis natoque pede.
+            Ayurvedic medicine is a holistic approach to health care. It is one of the oldest forms of medicine in the world, dating back to about 4,000 years ago.
+            The ayurvedic system focuses on treating and preventing disease through diet, exercise, herbal remedies, and other natural therapies.
+            Interest in ayurvedic medicine has grown due to its efficacy without any adverse side effects.
             <br/>
             <br/>
-            Dapibus imperdiet hendrerit purus curae ornare consequat. Aliquet consectetuer ligula integer tempor taciti egestas cubilia nam gravida mattis. Mus sodales aliquet turpis natoque pede.r ligula integer tempor taciti egestas cubilia nam gravida mattis. Mus sodales aliquet turpis natoque pede.
+            Ayurvedic medicine has been around for a long time and is a traditional form of medicine. It can be used to treat many different types of illnesses and is even used in some hospitals today.
           </p>
 
           <div>
@@ -115,24 +119,24 @@ const Home = () => {
           <div className="flex gap-6 border border-type/30 rounded-xl p-6">
             <span className="bg-secondary p-4 rounded-xl text-white text-4xl">1</span>
             <div className="space-y-2">
-              <h2 className="font-medium text-xl">Consultations with our expert</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.</p>
+              <h2 className="font-medium text-xl">Check your brand</h2>
+              <p>Check your brand from the "Brands we offer" section that it's available or not.</p>
             </div>
           </div>
 
           <div className="flex gap-6 border border-type/30 rounded-xl p-6">
             <span className="bg-secondary p-4 rounded-xl text-white text-4xl">2</span>
             <div className="space-y-2">
-              <h2 className="font-medium text-xl">Consultations with our expert</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.</p>
+              <h2 className="font-medium text-xl">Drop us a message</h2>
+              <p>Fill out the form and let us know what is the product you are looking for</p>
             </div>
           </div>
 
           <div className="flex gap-6 border border-type/30 rounded-xl p-6">
             <span className="bg-secondary p-4 rounded-xl text-white text-4xl">3</span>
             <div className="space-y-2">
-              <h2 className="font-medium text-xl">Consultations with our expert</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.</p>
+              <h2 className="font-medium text-xl">Rest we will handle</h2>
+              <p>We will contact you within 24 hours and place your order in no time.</p>
             </div>
           </div>
 
@@ -141,11 +145,9 @@ const Home = () => {
 
       <CTA
         bg="bg-cta-bg"
-        head="Discount up to 50% for first purchase."
-        para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
+        head="Discount up to 15% for first purchase from our website."
+        para="The brand you are looking for is not available? That's okay! contact us you can order them from our store."
       />
-
-      <FormCTA/>
     </section>
   )
 };

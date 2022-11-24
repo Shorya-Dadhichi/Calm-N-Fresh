@@ -7,8 +7,7 @@ const FormCTA = () => {
         <h1 className="text-2xl font-bold sm:text-3xl">Which product are you looking for?</h1>
 
         <p className="mt-4 text-white/80">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
-          eaque error neque ipsa culpa autem, at itaque nostrum!
+          Drop us a message we will get back to you within 24 hours.
         </p>
       </div>
 
@@ -49,8 +48,8 @@ const FormCTA = () => {
 
         <div className="flex items-center justify-between">
           <p className="text-sm text-white/80">
-            Questions?
-            <a className="underline underline-offset-2" href="tel:+919991060450"> WhatsApp</a>
+            Or text us directly on 
+            <a className="underline underline-offset-2 pl-2" href="tel:+919991060450">WhatsApp <i className="fa-brands fa-whatsapp"></i></a>
           </p>
 
           <button

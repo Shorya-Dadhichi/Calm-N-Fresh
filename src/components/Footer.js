@@ -14,7 +14,6 @@ const Footer = () => {
           <article className="space-y-6">
             <div className="font-medium list-none text-center flex flex-col md:flex-row lg:gap-4">
               <a href='/' className="py-2 px-4 font-medium cursor-pointer text-neutral hover:text-type transition-colors">Home</a>
-              <a href='/products' className="py-2 px-4 font-medium cursor-pointer text-neutral hover:text-type transition-colors">Products</a>
               <a href='/about' className="py-2 px-4 font-medium cursor-pointer text-neutral hover:text-type transition-colors">About</a>
               <a href='/contact' className="py-2 px-4 font-medium cursor-pointer text-neutral hover:text-type transition-colors">Contact</a>
             </div>
