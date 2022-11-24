@@ -7,7 +7,7 @@ import hero_img from "../img/hero_img.webp"
 const About = () => {
   return (
     <div className="pt-20 sm:pt-32 lg:pt-44 text-type">
-      <div className="max-w-screen-xl px-4 md:px-8 mx-auto py-12">
+      <div className="max-w-screen-xl px-4 md:px-8 mx-auto pb-12">
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
           <div>
             <div className="h-auto overflow-hidden rounded-lg drop-shadow-2xl">
@@ -20,7 +20,10 @@ const About = () => {
 
             <h2 className="text-2xl sm:text-3xl font-bold text-center md:text-left mb-4 md:mb-6">About us</h2>
 
-            <p className="sm:text-lg mb-6 md:mb-8">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing. Filler text is dummy text which has no meaning however looks very similar to real text.</p>
+            <p className="sm:text-lg mb-6 md:mb-8">
+              We have been in the business of ayurvedic medicine for more than 12 years and have a lot of knowladge in the Ayurvedic medicine. We also have an expert(Your Dad's Name) who well-versed in Ayurvedic knowladge and can offer you the best possible solutions to your problems.
+              We also offer medicines that are not easily available at other shops, which is why we have been able to build a lot of trust from our customers over the years we are providing medicines that are traditional and natural
+            </p>
 
             <h2 className="text-2xl sm:text-3xl font-bold text-center md:text-left mb-4 md:mb-6">About our product</h2>
 
