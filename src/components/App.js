@@ -23,7 +23,7 @@ const App = () => {
 
       <Route path="/">
         <Home/>
-        <a href="tel:+919991060450" className={scroll ? 'text-white bg-primary fixed z-30 bottom-10 md:bottom-12 right-2 md:right-6 w-30 hover:scale-105 px-4 py-3 font-semibold rounded-full shadow-xl transition-all' : 'hidden'}><i className="fa-solid fa-phone-volume text-xl -rotate-45"></i></a>
+        <a href="tel:+919991060450" className={scroll ? 'text-white bg-red-500 fixed z-30 bottom-10 md:bottom-12 right-2 md:right-6 w-30 hover:scale-105 px-4 py-3 font-semibold rounded-full shadow-xl transition-all' : 'hidden'}><i className="fa-solid fa-phone-volume text-xl -rotate-45"></i></a>
       </Route>
 
       <Route path="/about">

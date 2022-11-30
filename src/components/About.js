@@ -21,11 +21,12 @@ const About = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-center md:text-left mb-4 md:mb-6">About us</h2>
 
             <p className="sm:text-lg mb-6 md:mb-8">
-              We have been in the business of ayurvedic medicine for more than 12 years and have a lot of knowladge in the Ayurvedic medicine. We also have an expert(Your Dad's Name) who well-versed in Ayurvedic knowladge and can offer you the best possible solutions to your problems.
-              We also offer medicines that are not easily available at other shops, which is why we have been able to build a lot of trust from our customers over the years we are providing medicines that are traditional and natural
+              We have been in the business of ayurvedic medicine for 50+ years and have a lot of knowledge in the Ayurvedic medicine. We also have an expert <em className="font-semibold">Sarvottam Sharma</em> who is well-versed in Ayurvedic knowledge, and can offer you the best possible solutions to your health issues.
+              We have been in business for over 60+ years.
+              We also offer medicines that are not easily available at other shops, which is why we have been able to build a lot of trust from our customers over the decades.
             </p>
 
-            <h2 className="text-2xl sm:text-3xl font-bold text-center md:text-left mb-4 md:mb-6">About our product</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-center md:text-left mb-4 md:mb-6">About Ayurveda</h2>
 
             <p className=" sm:text-lg mb-6 md:mb-8">
               Ayurvedic medicine is a traditional form of alternative medicine that originated in India.

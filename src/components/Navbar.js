@@ -3,7 +3,8 @@ import Button from './Button';
 import Link from './Link';
 
 // imgs
-import logo from '../img/logo.svg';
+import logo1 from '../img/logo1.webp';
+import logo2 from '../img/logo2.webp';
 
 
 const Navbar = () => {
@@ -20,12 +21,12 @@ const Navbar = () => {
   return (
     <section className="font-roboto text-type">
       <nav id='navbar'
-        className={scroll ? "bg-white fixed w-full left-0 px-8 md:px-10 lg:px-16 xl:px-24 py-4 z-40 shadow-md duration-300 transition-all" : "fixed w-full left-0 px-8 md:px-10 lg:px-16 xl:px-24 py-16 md:py-20 z-40 transition-all"}>
+        className={scroll ? "bg-white fixed w-full left-0 px-8 md:px-10 lg:px-16 xl:px-24 py-1 z-40 shadow-md duration-300 transition-all" : "fixed w-full left-0 px-8 md:px-10 lg:px-16 xl:px-24 py-16 md:py-20 z-40 transition-all"}>
         
         <div className="max-w-screen-xl mx-auto flex justify-between items-center text-xs lg:text-sm uppercase">
           
           {/* <a href='/' className="text-2xl font-bold">Punjab Medicare</a> */}
-          <Link href='/' className="text-2xl font-bold"><img src={ logo } alt="logo" className='w-12 lg:w-20 h-12 lg:h-20 scale-110 hover:scale-125 transition-all'/></Link>
+          <Link href='/' className="text-2xl font-bold"><img src={ logo1 } alt="logo" className='w-12 lg:w-20 h-12 lg:h-20 hover:scale-110 transition-all'/></Link>
           
           <i id="myBtn" className="fa-solid fa-bars md:hidden text-dark text-2xl text-neutral cursor-pointer" onClick={hamburgerClick}></i>
           

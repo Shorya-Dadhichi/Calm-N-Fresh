@@ -1,9 +1,8 @@
 import React from "react";
-import Button from "./Button";
 import FeatureCard from "./FeatureCard";
 import Brand from "./Brand";
 import CTA from "./CTA";
-import FormCTA from "./FormCTA";
+import { Link } from "react-scroll";
 
 // Imgs
 import hero_blob from "../img/hero_blob.webp"
@@ -19,25 +18,25 @@ const Home = () => {
       <article className="max-w-screen-xl mx-auto  px-6 md:px-12 2xl:px-6">
       {/* Hero Section */}
         <section>
-          <div className="flex flex-col md:flex-row justify-center items-center gap-12">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-2">
             <div className="md:w-3/6 md:space-y-4">
               <p id="reveal_para" className="font-medium text-primary text-md pt-6 leading-loose"><em>Welcome to Punjab Medicare</em></p>
 
               <h2 id="reveal" className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-normal lg:leading-relaxed">Healing through Nature.</h2>
 
-              <p id="reveal_para" className="font-light text-lg lg:text-2xl pt-6">For a healthy mind and body, you can't overlook Ayurvedic medicine.</p>
+              <p id="reveal_para" className="font-light text-lg lg:text-2xl pt-6">For a healthy mind and body, you can't overlook Ayurvedic Medicine. We have been in business for 60+ years.</p>
 
               <aside id="reveal_btn" className='hidden md:block pt-12 space-y-2'>
-                <Button href="/plan" text="Discover Us"/>
+                <Link to="brands" spy={true} smooth={true} offset={-20} duration={800}><button className="font-medium w-3/6 py-4 bg-gradient-to-tl from-primary to-secondary text-white text-xs lg:text-sm rounded-full transition-all hover:scale-105 hover:tracking-[2px]">Discover Brands </button></Link>
               </aside>
             </div>
 
             <div className="pt-12 sm:w-3/6 relative">
               <img src={hero_blob} alt="blob" className="absolute top-0 scale-110"/> 
-              <img src={hero_img2} width="2880" height="2000" id="fade-in-image" alt="illustration" className="relative"/>
+              <img src={hero_img2} width="2880" height="2000" id="fade-in-image" alt="illustration" className="relative bottom-6 drop-shadow-xl hover:scale-110 transition-all"/>
               
-              <aside id="reveal_btn" className='md:hidden text-center pt-24 space-y-2'>
-                <Button href="/plan" text="Discover"/>
+              <aside id="reveal_btn" className='md:hidden text-center pt-20 space-y-2'>
+                <Link to="brands" spy={true} smooth={true} offset={-100} duration={800}><button className="font-medium w-3/6 py-4 bg-gradient-to-tl from-primary to-secondary text-white text-xs lg:text-sm rounded-full transition-all hover:scale-105 hover:tracking-[2px]">Discover </button></Link>
               </aside>
             </div>
           </div>
@@ -46,23 +45,20 @@ const Home = () => {
             <FeatureCard
               icon={store}
               head="Ayurvedic Store"
-              para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
             />
             <FeatureCard
               icon={consultations}
               head="Consultations"
-              para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
             />
             <FeatureCard
               icon={treatments}
               head="Treatments"
-              para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum."
             />
           </div>
         </section>
 
         {/* Products Section */}
-        <section className="py-24 space-y-24">
+        <section id="brands" className="py-24 space-y-24">
           <h1 className="text-4xl md:text-5xl text-center uppercase">Brands we offer</h1>
 
           <article className="flex flex-col md:flex-row items-center gap-12">
@@ -71,7 +67,7 @@ const Home = () => {
         </section>
       </article>
 
-      <FormCTA/>
+      {/* <FormCTA /> */}
 
       <CTA
         bg="bg-cta-bg2"
