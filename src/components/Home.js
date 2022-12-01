@@ -20,7 +20,7 @@ const Home = () => {
         <section>
           <div className="flex flex-col md:flex-row justify-center items-center gap-2">
             <div className="md:w-3/6 md:space-y-4">
-              <p id="reveal_para" className="font-medium text-primary text-md pt-6 leading-loose"><em>Welcome to Punjab Medicare</em></p>
+              <p id="reveal_para" className="font-medium text-primary text-xl lg:text-3xl pt-6 leading-loose"><em>Welcome to Punjab Medicare</em></p>
 
               <h2 id="reveal" className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-normal lg:leading-relaxed">Healing through Nature.</h2>
 

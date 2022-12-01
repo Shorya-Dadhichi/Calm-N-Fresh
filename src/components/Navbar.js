@@ -4,7 +4,6 @@ import Link from './Link';
 
 // imgs
 import logo1 from '../img/logo1.webp';
-import logo2 from '../img/logo2.webp';
 
 
 const Navbar = () => {
